@@ -1,2 +1,2 @@
-# shotaro_apache_http_test
-The repository for testing some http requests.
+# shotaro_rest_http_test
+The repository for testing some http requests/response using REST docker server.
