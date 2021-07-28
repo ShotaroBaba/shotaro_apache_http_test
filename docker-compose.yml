@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+  
+  rest_api_server_test:
+    build:
+      context: ./rest
+    container_name: 'rest_api_server_test'
+    restart: 'no'
+    working_dir: /test
+    ports:
+      - "127.0.0.1:${JSON_DB_PORT}:3000"
